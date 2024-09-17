@@ -1,12 +1,13 @@
 # ProgramScanner
 
-## Explication du Script
+## Script Explanation
 
-Ce script batch génère un fichier HTML listant les programmes installés sur l'ordinateur. Voici les étapes principales :
+This batch script generates an HTML file listing the programs installed on the computer. Here are the main steps:
 
-1. **Initialisation** : Le script configure l'encodage UTF-8 et active l'expansion différée des variables.
-2. **Préparation du fichier de sortie** : Il définit le nom du fichier HTML (`programs.html`) et le supprime s'il existe déjà.
-3. **Création de l'en-tête HTML** : Le script crée l'en-tête du fichier HTML, incluant des balises pour le titre, le charset, et un script pour rendre la table triable.
-4. **Récupération des programmes** : Utilise `WMIC` pour obtenir la liste des programmes installés et les ajoute au fichier HTML avec des liens de recherche Google.
-5. **Fermeture des balises HTML** : Ajoute les balises de fermeture et un style CSS pour le fichier HTML.
-6. **Finalisation** : Affiche un message de confirmation indiquant que le fichier HTML a été généré.
+1. **Initialization**: The script sets the encoding to UTF-8 and enables delayed variable expansion.
+2. **Preparing the output file**: It sets the name of the HTML file (`programs.html`) and deletes it if it already exists.
+3. **Creating the HTML header**: The script creates the header of the HTML file, including tags for the title, charset, and a script to make the table sortable.
+4. **Retrieving programs**: Uses `WMIC` to get the list of installed programs and adds them to the HTML file with Google search links.
+5. **Closing HTML tags**: Adds the closing tags and a CSS style for the HTML file.
+6. **Finalization**: Displays a confirmation message indicating that the HTML file has been generated.
+
